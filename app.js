@@ -1,6 +1,6 @@
+import { Visual } from "./visual.js";
 import { setColor } from "./color.js";
 import { Text } from "./text.js";
-import { Visual } from "./visual.js";
 
 class App {
     constructor() {
@@ -60,6 +60,7 @@ class App {
             this.visual = new Visual(this.pos, obj.colorCtx, obj.width, obj.height);
         })
     }
+    
     resize() {
         this.stageWidth = document.body.clientWidth;
         this.stageHeight = document.body.clientHeight;

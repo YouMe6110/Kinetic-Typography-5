@@ -19,7 +19,7 @@ export async function setColor(url) {
                 colorCtx: tmpCtx,
                 width: image.width,
                 height: image.height,
-            })
+            });
         }
     });
 }
