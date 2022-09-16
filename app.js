@@ -1,4 +1,3 @@
-
 import { setColor } from "./color.js";
 import { Text } from "./text.js";
 import { Visual } from "./visual.js";
