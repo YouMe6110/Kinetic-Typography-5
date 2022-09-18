@@ -16,7 +16,7 @@ export class Text {
         const myText = str;
         const fontWidth = 700;
         const fontSize = 800;
-        const fontName = "Hind";
+        const fontName = "Hind, Helvetica, sans-serif";
 
         this.ctx.clearRect(0, 0, stageWidth, stageHeight);
         this.ctx.font = `${fontWidth} ${fontSize}px ${fontName}`;

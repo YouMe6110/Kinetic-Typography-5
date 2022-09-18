@@ -10,7 +10,7 @@ export class Particle {
             y: pos.y
         }];
 
-        for (let i = 0; i < TOTAL; i++) {
+        for (let i = 1; i < TOTAL; i++) {
             const prev = this.points[i - 1];
             this.points.push(this.setRandom(prev, ranMax));
         }
